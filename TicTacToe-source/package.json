@@ -1,0 +1,25 @@
+{
+  "name": "tictactoe",
+  "productName": "TicTacToe",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe game, using minimax algorithm for ai moves.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Badila Mihai",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.0",
+    "electron-packager": "^14.2.1"
+  },
+  "build": {
+    "appId": "com.tictactoe.game",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    }
+  }
+}
